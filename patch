@@ -1,0 +1,14 @@
+diff --git a/hello.c b/hello.c
+index de439a3..83322a1 100644
+--- a/hello.c
++++ b/hello.c
+@@ -1,4 +1,8 @@
+ #include<stdio.h>
++#include<stdlib.h>
+ int main(){
++    system("cls");
+     printf("Hello World");
++    printf("Sample");
++    system("pause");
+ }
+\ No newline at end of file
